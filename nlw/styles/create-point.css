@@ -11,3 +11,18 @@
     justify-content: space-between;
     align-items: center;
 }
+
+#page-create-point header a {
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#page-create-point header a span {
+    margin-left: 16px;
+    background-image: url(../assets/icones/arrow-left.svg);
+    display: flex;
+    width: 20px;
+    height: 24px;
+}
