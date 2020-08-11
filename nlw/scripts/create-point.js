@@ -40,10 +40,14 @@ for(let item of itensToCollect){
     item.addEventListener("click", handleSelectedItem);
 }
 
+let selectedItens = [];
+
 function handleSelectedItem(event) {
     const itemLi = event.target;
 
     itemLi.classList.toggle("selected");
 
     const itemId = itemLi.dataset.id;
+
+    
 }
