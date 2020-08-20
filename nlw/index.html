@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/model.css">
+
     <link rel="stylesheet" href="styles/responsive.css">
 
 
@@ -35,7 +37,7 @@
         </div>
     </div>
 
-    <div id="model">
+    <div id="modal" class="hide">
         <div class="content">
             <div class="header">
                 <h1>Ponto de Coleta</h1>
@@ -44,7 +46,11 @@
             <form action="">
                 <label for="search">Cidade</label>
                 <div class="search field">
-                    <input type="text" name="search">
+                    <input 
+                    type="text" 
+                    name="search"
+                    placeholder="Pesquise por cidade"
+                    >
                     <button>
                         <img src="./assets/icones/search.svg" alt="Buscar">
 
